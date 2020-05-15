@@ -1,0 +1,12 @@
+{% extends 'techvale/base.html' %}
+
+{% block content %}
+    <div class="new_post">
+        <h2>Create/Edit Here</h2>
+        <form method="POST" class="post-form">{% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="btn btn-success">Save</button>
+        </form>
+    </div>
+    
+{% endblock %}

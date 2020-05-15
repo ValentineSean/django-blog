@@ -1,0 +1,189 @@
+body{
+    background-image: radial-gradient(rgb(92, 90, 102), rgb(223, 180, 190));
+}
+
+.page-header {
+    background-color: rgb(194, 0, 49);
+    color: rgb(7, 1, 41);
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+    font-family: cursive;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: rgb(7, 1, 41);
+    font-size: 36pt;
+    text-decoration: none;
+}
+
+.published_date{
+    color: rgb(7, 1, 41);
+    font-weight: bold;
+}
+
+.content {
+    margin: auto;
+}
+
+.blog_content{
+    box-shadow: rgb(7, 1, 41)  1px 1px 1px 1px;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+.post_title a{
+    text-decoration: none;
+    color: rgb(194, 0, 49);
+    font-family: fantasy;
+}
+
+.post_title a:hover{
+    text-decoration: none;
+    color: rgb(7, 1, 41);
+}
+    
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+   
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post{
+    box-shadow: rgb(7, 1, 41)  1px 1px 1px 1px;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+.post h2{
+    text-decoration: none;
+    color: rgb(194, 0, 49);
+    font-family: fantasy;
+}
+
+.glyphicon-home{
+    color: rgb(7, 1, 41);
+    margin: auto;
+}
+
+.glyphicon-plus:hover,
+.glyphicon-home:hover
+{
+    color: rgb(92, 90, 102);
+    transition: 2s;
+}
+
+.glyphicon-pencil{
+    padding: 10px;
+    background-color: rgb(7, 1, 41);
+    border-radius: 6px;
+    color: white;
+}
+
+.glyphicon-trash{
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+}
+
+.new_post{
+    box-shadow: rgb(7, 1, 41)  1px 1px 1px 1px;
+    background-image: radial-gradient(purple, rgb(79, 161, 194));
+    color: rgb(7, 1, 41);
+    border-radius: 6px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.post-form input{
+    background-color: rgb(158, 156, 167);
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: rgb(194, 0, 49);
+    font-weight: bolder;
+
+}
+
+.post-form textarea{
+    background-color: rgb(158, 156, 167);
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: rgb(194, 0, 49);
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.post-form button{
+    padding: 10px;
+    background: rgb(7, 1, 41);
+    color: rgb(79, 161, 194);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+.post-form button:hover{
+    color: rgb(7, 1, 41);
+    background-color: rgb(79, 161, 194);
+    transition: 2s;
+}
+
+.form-group p a{
+    text-decoration: none;
+    color: rgb(194, 0, 49);
+}
+
+.form-group p a:hover{
+    color: green;
+    font-weight: bold;
+    transition: 2s;
+}
+
+.signup,
+.login,
+.logout{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(7, 1, 41);
+    padding: 10px;
+    border: solid 1px rgb(7, 1, 41);
+    border-radius: 6px;
+}
+
+.signup:hover,
+.login:hover,
+.logout:hover{
+    text-decoration: none;
+    transition: 2s;
+    color: rgb(79, 161, 194);
+    background-color: rgb(7, 1, 41);
+}
+
+footer{
+    background-color: rgb(194, 0, 49);
+    color: rgb(7, 1, 41);
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
